@@ -8,3 +8,5 @@ $(TWEAK_NAME)_LDFLAGS = -Wl,-segalign,4000
 
 include $(THEOS)/makefiles/common.mk
 include $(THEOS_MAKE_PATH)/tweak.mk
+# MImport_CFLAGS += -I./include
+# MImport_LDFLAGS += -lroothide
